@@ -1,0 +1,14 @@
+# Getting and Cleaning Data - Course Project
+
+The original Data base was transformed, following the next steps
+
+1. Assing column names to x_train and x_test databases using Featrures database
+2. Rename the variables of each dataset, so that it is easier to identify each of them at the time of merging
+3. Merge the train and the test databases in order to create just one data base
+4. Subset the merged data set, to get only the measurements on the mean and standard deviation for each measurement
+5. Name the activities in the data set, according to descriptive activity given in the activity_labels dataset, this can be done using merge or joints
+6. Aggregate the data to get the summary statistics needed, in this case to get the average of each variable for each activity and each subject.
+
+# About the code
+
+The file run_analysis.r contains all the programming task developed in order to transform the original data-
