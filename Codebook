@@ -12,3 +12,12 @@ The original Data base was transformed, following the next steps
 # About the code
 
 The file run_analysis.r contains all the programming task developed in order to transform the original data-
+
+# Data sets and Variables used
+
+*x_train, y_train, subject_train, x_test, y_test, subject_test are de datasets dowloaded
+*features contains the names of each od the x_test variables
+*master_data, is the result of merging all the data bases
+*master_mean_sd is the data base that has only de information about mean and sd for each measurement
+*TidyDataSet is the final dataset
+
